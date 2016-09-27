@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_menu_add"
+        android:title="@string/menu_add_text"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:onClick="mainMenuClick"
+        />
+
+    <item
+        android:id="@+id/main_menu_delete"
+        android:title="@string/menu_delete_text"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/menu_help_text"
+        app:showAsAction="always"
+        android:id="@+id/main_menu_help"
+        android:icon="@android:drawable/ic_menu_help" />
+    <item
+        android:title="@string/menu_more_text"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item
+                android:title="@string/menu_camera_text"
+                android:icon="@android:drawable/ic_menu_camera"
+                app:showAsAction="always"
+                />
+            <item
+                android:title="@string/menu_camera_text"
+                android:icon="@android:drawable/ic_menu_camera"
+                app:showAsAction="always"
+                />
+            <item
+                android:title="@string/menu_compass_text"
+                android:icon="@android:drawable/ic_menu_compass"
+                app:showAsAction="always"
+                />
+            <item
+                android:title="@string/menu_upload_text"
+                android:icon="@android:drawable/ic_menu_upload"
+                app:showAsAction="always"
+                />
+        </menu>
+    </item>
+
+
+</menu>

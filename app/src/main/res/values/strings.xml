@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelloWord50</string>
+    <string name="hello_world">MY FIRST BUTTON</string>
+    <string name="menu_add_text">Add</string>
+    <string name="menu_delete_text">Delete</string>
+    <string name="menu_help_text">Help</string>
+    <string name="menu_more_text">More</string>
+    <string name="menu_camera_text">Camera</string>
+    <string name="menu_compass_text">Compass</string>
+    <string name="menu_upload_text">Upload</string>
+    <string name="menu_view_text">View</string>
+    <string name="account_edit_text">Account</string>
+    <string name="password_edit_text">Password</string>
+    <string name="age_edit_text">Age</string>
+    <string name="btn_ok_text">OK</string>
+</resources>
