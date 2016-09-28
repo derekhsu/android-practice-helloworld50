@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info_file01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6sp"
+        android:gravity="center"
+        android:background="@android:drawable/title_bar"
+        android:text="INFO"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:background="#607D8B"
+        android:columnWidth="128dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:onClick="loadImage"/>
+</LinearLayout>

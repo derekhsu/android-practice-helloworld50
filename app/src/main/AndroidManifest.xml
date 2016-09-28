@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="idv.derekhsu.helloword50">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,15 +25,19 @@
         <activity android:name=".res.Res02Activity" />
         <activity android:name=".intent01.Intent01Activity" />
         <activity android:name=".intent01.SecondActivity" />
-        <activity android:name=".intent02.Intent02Activity"></activity>
-        <activity android:name=".intent03.Intent03Activity">
+        <activity android:name=".intent02.Intent02Activity" />
+        <activity android:name=".intent03.Intent03Activity"></activity>
+        <activity android:name=".intent03.MmsActivity" />
+        <activity android:name=".intent03.PhoneActivity" />
+        <activity android:name=".pref01.Pref01Activity">
+        </activity>
+        <activity android:name=".file01.File01Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".intent03.MmsActivity"></activity>
     </application>
 
 </manifest>
